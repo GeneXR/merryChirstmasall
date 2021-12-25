@@ -1,0 +1,84 @@
+.bg {
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  transition: opacity 1s ease;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.merryChirstmasText {
+  color: wheat;
+  text-transform: uppercase;
+}
+
+.coverBg {
+  opacity: 1;
+  z-index: 1;
+}
+
+.coverBg.inactive {
+  opacity: 0;
+}
+
+.contentBg {
+  opacity: 0;
+  z-index: 0;
+}
+
+.contentBg.active {
+  opacity: 0.5;
+}
+
+.content {
+  position: absolute;
+  padding: 20px;
+  line-height: 1.6;
+  text-align: center;
+  top: 93px;
+}
+
+.santa img {
+  width: 123px;
+  position: absolute;
+}
+
+.tree img {
+  width: 428px;
+  position: absolute;
+  right: -40px;
+  top: 195px;
+}
+
+.photoContainer {
+  top: 47%;
+  position: absolute;
+}
+
+.signature {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.heart img {
+  width: 599px;
+  position: absolute;
+  right: -107px;
+  top: 132px;
+}
